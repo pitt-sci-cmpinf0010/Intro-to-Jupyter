@@ -90,20 +90,11 @@ The text file editor is useful for keeping information in, such as lists and cer
 
 In this section we will use the terminal in JupyterLab to download the lab materials. It's fine if you don't understand exactly what's going on here; you will learn about the terminal and git in lab soon!
 
-1. In JupyterLab, make a new folder for this class if you haven't already
-    1. To do this, over in the top left, click the folder icon with the plus
-    2. You should see a new folder in the file explorer
-    3. Right click the folder, click rename, then rename it to CMPINF0010 or something similar
-2. Now, click the plus icon in the top left to open a new Launcher
-3. Click `Terminal`
-4. Type in `cd CMPINF0010`
-    - Or, if you named your class folder something different, replace `CMPINF0010` with whatever you named your folder
-5. Now, copy and paste this command into the terminal
-    ```
-    git clone https://github.com/pitt-sci-cmpinf0010/week-2.git
-    ```
-    - If you can't seem to paste anything, try using Ctrl+Shift+V (or Command+Shift+V)
-6. You should see a new folder named `week-2` inside your class folder!
+1. In Canvas, click **2204 CMPINF 0010 SEC1010**
+2. Now, click **Modules**
+3. Click **Skills Lab Week 2**
+4. Login with your Pitt credentials
+5. Congrats! You should see this week's lecture open in Jupyter Hub
 
 
 
@@ -176,35 +167,23 @@ In the `week-2` folder, open the `week-2-lab-lesson.ipynb` Jupyter Notebook. Rea
 
 ---
 
-## Part 6 - Uploading completed labs to Box
+## Part 6 - Uploading completed labs to Canvas
 
 
 
-We use Box to let you upload your labs. You can find a link to Box on [my.pitt.edu](https://my.pitt.edu) on the top right. Once you click on it, you should see a list of folders that you have access to. You should see a folder named `CMPINF0010 Monday Lab Sessions` or `CMPINF0010 Wednesday Lab Sessions` depending on which day you have lab. That is the folder that you will upload your completed assignments to. You are able to drop your files in but not able to look at any of the submissions (no cheating, sorry!)
+We will use [Canvas](canvas.pitt.edu) to let you upload your labs. 
 
-### Actually uploading
+1. First, you're going to have to download the notebook to your computer.
+    * On JupyterHub, right click on your exercise notebook on your file browser on the left
+    * Click **Download** and save it somewhere
 
-1. In JupyterHub, navigate to your folder for this week's lab
-2. Right click on the notebook that you will be submitting
-    - If you need to submit multiple files, hold control (command on Mac) and click on the files that you need
-3. Click `Download`
-    - Also click `Allow` if your browser asks you if it's okay to download multiple files
-4. Now, zip the file(s) up
-    - Windows:
-        - In File Explorer, select the files (control-click if you have multiple)
-        - Right click -> Send to -> Compressed (zipped) folder
-    - MacOS:
-        - In Finder, select the files (command-click if you have multiple)
-        - Control-click (or two-finger click) the files
-        - Click compress
-5. Now for the most important part: **_RENAME_** the zip file!
-    - The format you should use is: `abc123-week-2-lab.zip`
-        - Replace abc123 with your username and week-2 with the current week
-6. Once the file is renamed, open up Box
-    - You can access it from [my.pitt.edu](https://my.pitt.edu)
-7. In the folder `CMPINF0010 Monday Lab Sessions` or `CMPINF0010 Wednesday Lab Sessions` depending on which day you have lab.
-8. Click and drag your zip file onto the folder
-9. Once it's uploaded, you're done!
+2. Then, go to Canvas to upload you lab.
+    * In Canvas, click on our class, then Modules
+    * Click on the Skills Lab module for this week
+    * Click **Submit Assignment** in the top right
+    * Choose your Notebook file you downloaded earlier (will end in `.ipynb`)
+    * Hit Submit!
+
 
 Note: you can re-upload your lab as many times as you want before the deadline.
 
