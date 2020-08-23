@@ -27,6 +27,13 @@ This week's lab session has 5 parts.
 
 ---
 
+## Help Outside the "Classroom"
+
+There is a new discord server for this class! More information to come soon(TM)!
+
+
+---
+
 ## Part 1 - What is the SCI Jupyterhub?
 
 The SCI Jupyterhub is actually a supercomputer! We’re accessing it for a couple reasons. It has a system installed on it that simplified working on the labs; it removes the need to install all the individual programs to open and edit Jupyter notebooks.  This means regardless whether you’re accessing the hub from a PC or a Mac or a Tablet, you are able to write and execute anything you need in your notebook. Also, it’s really convenient to have everything chilling on the CRC, you’ll be able to access it from any machine as long as you have a browser and an internet connection.
