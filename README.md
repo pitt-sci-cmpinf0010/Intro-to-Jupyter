@@ -23,7 +23,7 @@ This week's lab session has 5 parts.
 2. Using JupyterLab
 3. Downloading Lab Materials
 4. Introduction to Jupyter Notebooks
-5. Uploading completed labs to Box
+5. Uploading completed labs to Canvas
 
 ---
 
