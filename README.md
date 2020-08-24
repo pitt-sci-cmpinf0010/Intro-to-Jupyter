@@ -95,8 +95,6 @@ The text file editor is useful for keeping information in, such as lists and cer
 
 ## Part 3 - Downloading Lab Materials
 
-In this section we will use the terminal in JupyterLab to download the lab materials. It's fine if you don't understand exactly what's going on here; you will learn about the terminal and git in lab soon!
-
 1. In Canvas, click **2204 CMPINF 0010 SEC1010**
 2. Now, click **Modules**
 3. Click **Skills Lab Week 2**
