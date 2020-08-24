@@ -168,7 +168,7 @@ You can see a full guide to Markdown [here](https://github.com/adam-p/markdown-h
 
 The materials you downloaded in Part 3 contain a Notebook with instructions for this week's exercise. 
 
-In the `week-2` folder, open the `week-2-lab-lesson.ipynb` Jupyter Notebook. Read through this notebook and follow the instructions. You will be instructed to create a new Jupyter Notebook with some Markdown text, images, and Python code. This is the notebook you will hand in using Box (instructions below).
+In the `week-2` folder, open the `week-2-lab-lesson.ipynb` Jupyter Notebook. Read through this notebook and follow the instructions. You will be instructed to create a new Jupyter Notebook with some Markdown text, images, and Python code. This is the notebook you will hand in using Canvas (instructions below).
 
 ---
 
