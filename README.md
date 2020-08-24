@@ -45,6 +45,7 @@ The other nice thing about using Jupyter Hub is that it operates on its own file
 This is the first big task of the lab sections.  Don’t worry, it’s very difficult:
 1.	Go to https://jupyterhub.sci.pitt.edu.
 2.	Log in with your Pitt credentials
+    * Note: don't inlcude @pitt.edu, and your username needs to be all lowercase (e.g. abc12 is good, but ABC12 and abc12@pitt.edu are **not**)
 3.	Verify yourself with Two Factor Authentication
 4.	Click `Start my Server`
 5.	Select `Host Process` from the dropdown (should be default), then hit `Spawn`
