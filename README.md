@@ -19,7 +19,10 @@ We will be using *JupyterLab* to create, edit, and execute *python* in *Jupyter 
 
 This week's lab session has 5 parts.
 
-1. Logging into the SCI JupyterHub
+1. Getting JupyterHub
+   * Installing JupyterHub (Prefered -> Do this)
+   * Logging into the SCI JupyterHub (Not prefered -> can be buggy/tepremental)
+   * Binder (Break glass in case of emergency)
 2. Using JupyterLab
 3. Downloading Lab Materials
 4. Introduction to Jupyter Notebooks
@@ -34,22 +37,31 @@ There is a new discord server for this class! More information to come soon(TM)!
 
 ---
 
-## Part 1 - What is the SCI Jupyterhub?
+## Part 1 - Getting JupyterHub
+
+This is the first big task of the lab sections. Don’t worry, it’s very difficult. There are 3 options to using JupyterHub for this class: installing it on your local machine, using the Pitt VPN or connecting virtually to a lab machine at Pitt to connect to The SCI JupyterHub, or using Binder. The easiest method is downloaidng and installing JupyterHub on your computer.
+
+#### What is the SCI JupyterHub?
 
 The SCI Jupyterhub is actually a supercomputer! We’re accessing it for a couple reasons. It has a system installed on it that simplified working on the labs; it removes the need to install all the individual programs to open and edit Jupyter notebooks.  This means regardless whether you’re accessing the hub from a PC or a Mac or a Tablet, you are able to write and execute anything you need in your notebook. Also, it’s really convenient to have everything chilling on the CRC, you’ll be able to access it from any machine as long as you have a browser and an internet connection.
 
 The other nice thing about using Jupyter Hub is that it operates on its own file system.  This means everybody has a standard system to navigate, simplifying the process of debugging and fixing errors.
 
+### Downloading and installing JupyterHub:
+
+You can download the instructions from [here](https://docs.google.com/document/d/1zYiZpnU86_bE2qfRYLke1lAxukKCpO6idhv-hUQafpU/edit) and follow them. All links are on the course webpage as well. Don't forget the environment.yml file!
+
 ### How to login to the CRC Jupterhub:
 
-This is the first big task of the lab sections.  Don’t worry, it’s very difficult:
-1.	Go to https://jupyterhub.sci.pitt.edu.
-2.	Log in with your Pitt credentials
-    * Note: don't inlcude @pitt.edu, and your username needs to be all lowercase (e.g. abc12 is good, but ABC12 and abc12@pitt.edu are **not**)
-3.	Verify yourself with Two Factor Authentication
-4.	Click `Start my Server`
-5.	Select `Host Process` from the dropdown (should be default), then hit `Spawn`
-6.	That’s it, you’re in
+1.  Connect to the VPN. If you need help, instructions are [here](https://www.technology.pitt.edu/help-desk/how-to-documents/pittnet-vpn-pulse-secure-connect-pulse-secure-client)
+    * Alternatively, you can connect virtually to one of Pitt's machines using these [instructions](https://www.technology.pitt.edu/services/virtual-lab)
+2.  Go to https://jupyterhub.sci.pitt.edu.
+3.	Log in with your Pitt credentials
+    * Note: don't inlcude @pitt.edu, and your username needs to be **all lowercase** (e.g. abc12 is good, but ABC12 and abc12@pitt.edu are **not**)
+4.	Verify yourself with Two Factor Authentication
+5.	Click `Start my Server`
+6.	Select `Host Process` from the dropdown (should be default), then hit `Spawn`
+7.	That’s it, you’re in
 
 Start my Server
 ![logging into jupyterhub](img/hub-login-1.png)
@@ -112,7 +124,7 @@ During the course of this, uh, course, you'll be completing your labs and final 
 
 A Jupyter notebook is, at its core, a bunch of *cells* on top of an interactive *kernel*. This explanation necessarily oversimplifies some things, but you can think of each notebook as having its own kernel that all of its cells can access and modify. So, for example, if you say `a = 123` in `Notebook1.ipynb`, any code cell within `Notebook1.ipynb` can see the value of `a`, but `Notebook2.ipynb` is unaware of the existence of the variable `a`. (For a counterexample, try clicking on the "Python 3" in the upper-right corner of a notebook once you're on JupyterHub. Have fun.)
 
-The specific kernel we're using is an interactive version of Python 3 called IPython. This naming convention holds; the default Ruby kernel for Jupyter is called IRuby, for example. Many programming languages have interactive kernels for creating notebooks, but we'll be sticking to Python 3 for this course. 
+The specific kernel we're using is an interactive version of Python 3 called IPython. This naming convention holds; the default Ruby kernel for Jupyter is called IRuby, for example. Many programming languages (including Java) have interactive kernels for creating notebooks, but we'll be sticking to Python 3 for this course. 
 
 ### Cells
 
@@ -169,7 +181,7 @@ You can see a full guide to Markdown [here](https://github.com/adam-p/markdown-h
 
 The materials you downloaded in Part 3 contain a Notebook with instructions for this week's exercise. 
 
-In the `week-2` folder, open the `week-2-lab-lesson.ipynb` Jupyter Notebook. Read through this notebook and follow the instructions. You will be instructed to create a new Jupyter Notebook with some Markdown text, images, and Python code. This is the notebook you will hand in using Canvas (instructions below).
+In the `lab-1` folder, open the `Lab-1-Lesson.ipynb` Jupyter Notebook. Read through this notebook and follow the instructions. You will be instructed to create a new Jupyter Notebook with some Markdown text, images, and Python code. This is the notebook you will hand in using Canvas (instructions below).
 
 ---
 
@@ -179,7 +191,7 @@ In the `week-2` folder, open the `week-2-lab-lesson.ipynb` Jupyter Notebook. Rea
 
 We will use [Canvas](canvas.pitt.edu) to let you upload your labs. 
 
-1. First, you're going to have to download the notebook to your computer.
+1. First, if you used the VPN/Virtual Lab or Binder, you're going to have to download the notebook to your computer.
     * On JupyterHub, right click on your exercise notebook on your file browser on the left
     * Click **Download** and save it somewhere
 
