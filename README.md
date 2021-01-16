@@ -1,5 +1,5 @@
 # CMPINF0010 Skills Lab 
-# Week 2 - Introduction to Jupyter & the Stack
+# Lab 1 - Introduction to Jupyter & the Stack
 
 Welcome to the Lab session for CMPINF0010 Big Ideas in Computing and Information.
 
