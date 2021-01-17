@@ -21,7 +21,7 @@ This week's lab session has 5 parts.
 
 1. Getting JupyterHub
    * Installing JupyterHub (Prefered -> Do this)
-   * Logging into the SCI JupyterHub (Not prefered -> can be buggy/tepremental)
+   * Logging into the SCI JupyterHub (Not prefered -> can be buggy/tepramental)
    * Binder (Break glass in case of emergency)
 2. Using JupyterLab
 3. Downloading Lab Materials
@@ -39,19 +39,21 @@ There is a new discord server for this class! More information to come soon(TM)!
 
 ## Part 1 - Getting JupyterHub
 
-This is the first big task of the lab sections. Don’t worry, it’s very difficult. There are 3 options to using JupyterHub for this class: installing it on your local machine, using the Pitt VPN or connecting virtually to a lab machine at Pitt to connect to The SCI JupyterHub, or using Binder. The easiest method is downloaidng and installing JupyterHub on your computer.
-
-#### What is the SCI JupyterHub?
-
-The SCI Jupyterhub is actually a supercomputer! We’re accessing it for a couple reasons. It has a system installed on it that simplified working on the labs; it removes the need to install all the individual programs to open and edit Jupyter notebooks.  This means regardless whether you’re accessing the hub from a PC or a Mac or a Tablet, you are able to write and execute anything you need in your notebook. Also, it’s really convenient to have everything chilling on the CRC, you’ll be able to access it from any machine as long as you have a browser and an internet connection.
-
-The other nice thing about using Jupyter Hub is that it operates on its own file system.  This means everybody has a standard system to navigate, simplifying the process of debugging and fixing errors.
+This is the first big task of the lab sections. Don’t worry, it’s very difficult. There are 3 options to using JupyterHub for this class: installing it on your local machine, using the Pitt VPN or connecting virtually to a lab machine at Pitt to connect to The SCI JupyterHub, or using Binder. The easiest method is downloadng and installing JupyterHub on your computer.
 
 ### Downloading and installing JupyterHub:
 
 You can download the instructions from [here](https://docs.google.com/document/d/1zYiZpnU86_bE2qfRYLke1lAxukKCpO6idhv-hUQafpU/edit) and follow them. All links are on the course webpage as well. Don't forget the environment.yml file!
 
-### How to login to the CRC Jupterhub:
+### What is the SCI JupyterHub?
+
+The SCI Jupyterhub is actually a supercomputer! We’re accessing it for a couple reasons. It has a system installed on it that simplified working on the labs; it removes the need to install all the individual programs to open and edit Jupyter notebooks. This means regardless whether you’re accessing the hub from a PC or a Mac or a Tablet, you are able to write and execute anything you need in your notebook. Also, it’s really convenient to have everything chilling on the CRC, you’ll be able to access it from any machine as long as you have a browser and an internet connection.
+
+The other nice thing about using Jupyter Hub is that it operates on its own file system.  This means everybody has a standard system to navigate, simplifying the process of debugging and fixing errors.
+
+The downside is that you need to be connected to the Pitt VPN to acces the labs from off campus. This is one reason why we recommend installing Jupyter on your own computer. Working with it on your own computer will also help you build certain computer fluency that you will appreciate if you ever take future programming courses.
+
+#### How to login to the CRC Jupterhub:
 
 1.  Connect to the VPN. If you need help, instructions are [here](https://www.technology.pitt.edu/help-desk/how-to-documents/pittnet-vpn-pulse-secure-connect-pulse-secure-client)
     * Alternatively, you can connect virtually to one of Pitt's machines using these [instructions](https://www.technology.pitt.edu/services/virtual-lab)
@@ -68,7 +70,6 @@ Start my Server
 
 Spawn the Host Process
 ![logging into jupyterhub](img/hub-login-2.png)
-
 
 Congratulations! You are now logged into JupyterHub. Your screen should (hopefully) look something like this:
 
@@ -95,10 +96,12 @@ Before we begin, please watch this video for a basic walk through for using Jupy
 ### Creating a Notebook
 Your lab sessions and exercises will mainly be using Jupyter Notebooks--which allow you to write pieces of code and/or markdown in an organized fashion. **We will be using Python 3.7, so be sure to select that when you are making a Notebook.** Remember to use good naming techniques when creating files and folders.
 
+If you followed the instructions for downloading Jupyter on your own computer, then you should be familiar with opening a jupyter notebook through the Anaconda Navigator. Remember, make sure you tell Anaconda to open a Jupyter Lab session using the virtual environment that you imported from the course website.
+
 ### Understanding the File System
 Just as your computer has a system of files with a hierarchical order to them, your files in JupyterLab is organized in a similar way. You can create folders to place lab materials and lectures in, then put folders inside of folders if you would like! 
 
-These files are not on your local machine, they live on the CRC JupyterHub (which has A LOT more space than your computer). You can upload and download files from this remote file system using the JupyterLab web interface.
+If These files are not on your local machine, they live on the CRC JupyterHub (which has A LOT more space than your computer). You can upload and download files from this remote file system using the JupyterLab web interface.
 
 ### The Terminal and Text Editor
 We will be using the terminal for a variety of things during this class, but as explained an important use for it will be to download lab materials. Another good use for it is to navigate through files and run programs. 
