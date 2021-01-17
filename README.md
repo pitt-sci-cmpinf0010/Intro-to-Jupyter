@@ -43,7 +43,7 @@ This is the first big task of the lab sections. Don’t worry, it’s very diffi
 
 ### Downloading and installing JupyterHub:
 
-You can download the instructions from [here](https://docs.google.com/document/d/1zYiZpnU86_bE2qfRYLke1lAxukKCpO6idhv-hUQafpU/edit) and follow them. All links are on the course webpage as well. Don't forget the environment.yml file!
+You can download the instructions from [here](https://docs.google.com/document/d/1zYiZpnU86_bE2qfRYLke1lAxukKCpO6idhv-hUQafpU/edit) and follow them. All links are on the course webpage as well. Don't forget the [environment.yml](https://www.arjun-chandrasekhar-teaching.com/courses/Pitt/CMPINF0010/environment.yml) file!
 
 ### What is the SCI JupyterHub?
 
@@ -99,25 +99,19 @@ Your lab sessions and exercises will mainly be using Jupyter Notebooks--which al
 If you followed the instructions for downloading Jupyter on your own computer, then you should be familiar with opening a jupyter notebook through the Anaconda Navigator. Remember, make sure you tell Anaconda to open a Jupyter Lab session using the virtual environment that you imported from the course website.
 
 ### Understanding the File System
-Just as your computer has a system of files with a hierarchical order to them, your files in JupyterLab is organized in a similar way. You can create folders to place lab materials and lectures in, then put folders inside of folders if you would like! 
+Just as your computer has a system of files with a hierarchical order to them, your files in JupyterLab is organized in a similar way. You can create folders to place lab materials and lectures in, then put folders inside of folders if you would like! You can navigate through these folders the same way you would on your local machine with windows explorer or finder.
 
-If These files are not on your local machine, they live on the CRC JupyterHub (which has A LOT more space than your computer). You can upload and download files from this remote file system using the JupyterLab web interface.
+If you're using the VPN/Virtual Lab or Binder, these files are not on your local machine, they live on the CRC JupyterHub (which has A LOT more space than your computer). You can upload and download files from this remote file system using the JupyterLab web interface.
 
 ### The Terminal and Text Editor
-We will be using the terminal for a variety of things during this class, but as explained an important use for it will be to download lab materials. Another good use for it is to navigate through files and run programs. 
+We will be using the terminal (or command prompt) for a variety of things during this class, but as explained an important use for it will be to download lab materials. Another good use for it is to navigate through files and run programs. 
 The text file editor is useful for keeping information in, such as lists and certain data. We will learn more about doing this later in the semester!
 
 ---
 
 ## Part 3 - Downloading Lab Materials
 
-1. In Canvas, click **2204 CMPINF 0010 SEC1010**
-2. Now, click **Modules**
-3. Click **Skills Lab Week 2**
-4. Login with your Pitt credentials
-5. Congrats! You should see this week's lecture open in Jupyter Hub
-
-
+Each week, the repository for the lab material will be on GitHub. There are a few ways to download the repo to your local machine. Your TA will guide you in this process (especially for this week), or if you have trouble, please come to office hours.
 
 ---
 
@@ -202,7 +196,7 @@ We will use [Canvas](canvas.pitt.edu) to let you upload your labs.
     * In Canvas, click on our class, then Modules
     * Click on the Skills Lab module for this week
     * Click **Submit Assignment** in the top right
-    * Choose your Notebook file you downloaded earlier (will end in `.ipynb`)
+    * Choose your Notebook file you saved/created/downloaded earlier (will end in `.ipynb`)
     * Hit Submit!
 
 
