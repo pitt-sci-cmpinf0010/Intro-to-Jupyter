@@ -83,7 +83,7 @@ Don't worry, if you are unable to log into Jupyter Hub, we have set up an altern
 
 **Important Note:** If you are running on Binder and files or notebooks you create will be deleted after an hour of inactivity. Download anything you create to your local machine in order to preserve it (you will have to do this to hand in the lab exercises anyway)
 
-* Click here if SCI Hub doesn't work: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitt-sci-cmpinf0010/week-2/master?urlpath=lab)
+* Click here if SCI Hub doesn't work: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitt-sci-cmpinf0010/lab-1/master?urlpath=lab)
 
 
 ---
