@@ -39,11 +39,7 @@ There is a new discord server for this class! More information to come soon(TM)!
 
 ## Part 1 - Getting JupyterHub
 
-This is the first big task of the lab sections. Don’t worry, it’s very difficult. There are 3 options to using JupyterHub for this class: installing it on your local machine, using the Pitt VPN or connecting virtually to a lab machine at Pitt to connect to The SCI JupyterHub, or using Binder. The easiest method is downloadng and installing JupyterHub on your computer.
-
-### Downloading and installing JupyterHub:
-
-You can download the instructions from [here](https://docs.google.com/document/d/1zYiZpnU86_bE2qfRYLke1lAxukKCpO6idhv-hUQafpU/edit) and follow them. All links are on the course webpage as well. Don't forget the [environment.yml](https://www.arjun-chandrasekhar-teaching.com/courses/Pitt/CMPINF0010/environment.yml) file!
+This is the first big task of the lab sections. Don’t worry, it’s very difficult. There are 3 options to using JupyterHub for this class: installing it on your local machine, using the Pitt VPN or connecting virtually to a lab machine at Pitt to connect to The SCI JupyterHub, or using Binder. The easiest method is JupyterHub.
 
 ### What is the SCI JupyterHub?
 
@@ -55,7 +51,7 @@ The downside is that you need to be connected to the Pitt VPN to acces the labs 
 
 #### How to login to the CRC Jupterhub:
 
-1.  Connect to the VPN. If you need help, instructions are [here](https://www.technology.pitt.edu/help-desk/how-to-documents/pittnet-vpn-pulse-secure-connect-pulse-secure-client)
+1.  If you are not on Pitt wifi, connect to the VPN. If you need help, instructions are [here](https://www.technology.pitt.edu/help-desk/how-to-documents/pittnet-vpn-pulse-secure-connect-pulse-secure-client)
     * Alternatively, you can connect virtually to one of Pitt's machines using these [instructions](https://www.technology.pitt.edu/services/virtual-lab)
 2.  Go to https://jupyterhub.sci.pitt.edu.
 3.	Log in with your Pitt credentials
@@ -79,12 +75,19 @@ Welcome to Jupyter Lab!
 
 ### It didn't work!
 
+There are two other options: download jupyterlab onto your machine, or access it via Binder.
+
+### Downloading and installing Jupyter:
+
+You can download the instructions from [here](https://docs.google.com/document/d/1zYiZpnU86_bE2qfRYLke1lAxukKCpO6idhv-hUQafpU/edit) and follow them. All links are on the course webpage as well. Don't forget the [environment.yml](https://www.arjun-chandrasekhar-teaching.com/courses/Pitt/CMPINF0010/environment.yml) file!
+
+### Accessing labs via Binder
+
 Don't worry, if you are unable to log into Jupyter Hub, we have set up an alternative on another JupyterHub called [Binder](http://mybinder.org). By clicking the link below you will be connected to a free instance of Jupyter running in the cloud. 
 
 **Important Note:** If you are running on Binder and files or notebooks you create will be deleted after an hour of inactivity. Download anything you create to your local machine in order to preserve it (you will have to do this to hand in the lab exercises anyway)
 
 * Click here if SCI Hub doesn't work: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitt-sci-cmpinf0010/lab-1/master?urlpath=lab)
-
 
 ---
 
