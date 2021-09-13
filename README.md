@@ -20,8 +20,8 @@ We will be using *JupyterLab* to create, edit, and execute *python* in *Jupyter 
 This week's lab session has 5 parts.
 
 1. Getting JupyterHub
-   * Installing JupyterHub (Prefered -> Do this)
-   * Logging into the SCI JupyterHub (Not prefered -> can be buggy/tepramental)
+   * Logging into the SCI JupyterHub (Prefered -> Do this)
+   * Installing JupyterLab (Not prefered -> can be buggy/tepramental)
    * Binder (Break glass in case of emergency)
 2. Using JupyterLab
 3. Downloading Lab Materials
@@ -32,24 +32,24 @@ This week's lab session has 5 parts.
 
 ## Help Outside the "Classroom"
 
-There is a new discord server for this class! More information to come soon(TM)!
+There is a new discord server for this class! Check out the course page to join!
 
 
 ---
 
 ## Part 1 - Getting JupyterHub
 
-This is the first big task of the lab sections. Don’t worry, it’s very difficult. There are 3 options to using JupyterHub for this class: installing it on your local machine, using the Pitt VPN or connecting virtually to a lab machine at Pitt to connect to The SCI JupyterHub, or using Binder. The easiest method is JupyterHub.
+This is the first big task of the lab sections. Don’t worry, it’s not very difficult! There are 3 options to using JupyterHub for this class: connect to The SCI JupyterHub, installing it on your local machine, or using Binder. The easiest method is JupyterHub.
 
 ### What is the SCI JupyterHub?
 
-The SCI Jupyterhub is actually a supercomputer! We’re accessing it for a couple reasons. It has a system installed on it that simplified working on the labs; it removes the need to install all the individual programs to open and edit Jupyter notebooks. This means regardless whether you’re accessing the hub from a PC or a Mac or a Tablet, you are able to write and execute anything you need in your notebook. Also, it’s really convenient to have everything chilling on the CRC, you’ll be able to access it from any machine as long as you have a browser and an internet connection.
+The SCI Jupyterhub is actually a supercomputer! We’re accessing it for a couple reasons. It has a system installed on it that simplified working on the labs; it removes the need to install all the individual programs to open and edit Jupyter notebooks. This means regardless whether you’re accessing the hub from a PC or a Mac or a Tablet, you are able to write and execute anything you need in your notebook. Also, it’s really convenient to have everything chilling on the cloud; you’ll be able to access it from any machine as long as you have a browser and an internet connection.
 
-The other nice thing about using Jupyter Hub is that it operates on its own file system.  This means everybody has a standard system to navigate, simplifying the process of debugging and fixing errors.
+The other nice thing about using JupyterHub is that it operates on its own file system.  This means everybody has a standard system to navigate, simplifying the process of debugging and fixing errors.
 
-The downside is that you need to be connected to the Pitt VPN to acces the labs from off campus. This is one reason why we recommend installing Jupyter on your own computer. Working with it on your own computer will also help you build certain computer fluency that you will appreciate if you ever take future programming courses.
+The downside is that you need to be connected to the Pitt VPN to acces the labs from off campus. Thankfully, since many of you are freshman, this shouldn't be too much of an issue!
 
-#### How to login to the CRC Jupterhub:
+#### How to login to the SCI JupterHub:
 
 1.  If you are not on Pitt wifi, connect to the VPN. If you need help, instructions are [here](https://www.technology.pitt.edu/help-desk/how-to-documents/pittnet-vpn-pulse-secure-connect-pulse-secure-client)
     * Alternatively, you can connect virtually to one of Pitt's machines using these [instructions](https://www.technology.pitt.edu/services/virtual-lab)
