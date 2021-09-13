@@ -191,11 +191,11 @@ In the `lab-1` folder, open the `Lab-1-Lesson.ipynb` Jupyter Notebook. Read thro
 
 We will use [Canvas](canvas.pitt.edu) to let you upload your labs. 
 
-1. First, if you used the VPN/Virtual Lab or Binder, you're going to have to download the notebook to your computer.
+1. First, if you used the SCI JupyterHub, Virtual Lab, or Binder, you're going to have to download the notebook to your computer.
     * On JupyterHub, right click on your exercise notebook on your file browser on the left
     * Click **Download** and save it somewhere
 
-2. Then, go to Canvas to upload you lab.
+2. Then, go to Canvas to upload your lab.
     * In Canvas, click on our class, then Modules
     * Click on the Skills Lab module for this week
     * Click **Submit Assignment** in the top right
