@@ -114,7 +114,32 @@ The text file editor is useful for keeping information in, such as lists and cer
 
 ## Part 3 - Downloading Lab Materials
 
-Each week, the repository for the lab material will be on GitHub. There are a few ways to download the repo to your local machine. Your TA will guide you in this process (especially for this week), or if you have trouble, please come to office hours.
+Each week, the repository for the lab material will be on GitHub. Your TA will guide you in the process of accessing the materials (especially for this week), or if you have trouble, please come to office hours.
+
+Assuming you are logged into JupyterHub, please do the following:
+
+1. Click file &rarr; New &rarr; Terminal.
+![new terminal](img/open-new-terminal.png)
+It should open a window that looks something like this
+![terminal window](img/new-terminal-window.png)
+You should see a blinking rectangle - this is the cursor.
+2. Copy and paste the the following command:
+```shell
+git clone https://github.com/pitt-sci-cmpinf0010/Intro-to-Jupyter.git
+```
+Your terminal window should look like this
+![clone command](img/git-clone-command.png)
+3. Hit enter and wait for the command to finish running. After it does, look to your left. You should see a new folder called `Intro-to-Jupyter`. Your file explorer on the right should look like this
+![successful clone](img/lab-cloned-success.png)
+
+Double click the new folder. You should now be able to see the following lab materials
+- `README.md` - the README file document that you were reading for instructions on how to access the lab
+- `Lab-Lesson.ipynb` - the Jupyter Notebook file with all of the exercises that you need to complete for this lab.
+- Some other files that you can ignore
+
+Your file explorer on the left should look like this
+
+![lab materials](img/lab-materials.png)
 
 ---
 
@@ -181,7 +206,7 @@ You can see a full guide to Markdown [here](https://github.com/adam-p/markdown-h
 
 The materials you downloaded in Part 3 contain a Notebook with instructions for this week's exercise. 
 
-In the `lab-1` folder, open the `Lab-1-Lesson.ipynb` Jupyter Notebook. Read through this notebook and follow the instructions. You will be instructed to create a new Jupyter Notebook with some Markdown text, images, and Python code. This is the notebook you will hand in using Canvas (instructions below).
+In the `Intro-to-Jupyter` folder, open the `Lab-Lesson.ipynb` Jupyter Notebook. Read through this notebook and follow the instructions. You will be instructed to create a new Jupyter Notebook with some Markdown text, images, and Python code. This is the notebook you will hand in using Canvas (instructions below).
 
 ---
 
