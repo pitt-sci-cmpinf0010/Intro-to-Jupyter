@@ -222,12 +222,14 @@ We will use [Canvas](canvas.pitt.edu) to let you upload your labs.
     * Click **Download** and save it somewhere
 
 2. Then, go to Canvas to upload your lab.
-    * In Canvas, click on our class, then Modules
-    * Click on the Skills Lab module for this week
+    * In Canvas, click on our class
+    * Go to Assignments
+    * Click on the Skills Lab assignment for this week
     * Click **Submit Assignment** in the top right
     * Choose your Notebook file you saved/created/downloaded earlier (will end in `.ipynb`)
     * Hit Submit!
 
+If you are confused, here is a [tutorial](https://community.canvaslms.com/t5/Student-Guide/How-do-I-upload-a-file-as-an-assignment-submission-in-Canvas/ta-p/274) on how to submit an assignment on Canvas.
 
-Note: you can re-upload your lab as many times as you want before the deadline.
+**Note:** you can re-upload your lab as many times as you want before the deadline.
 
