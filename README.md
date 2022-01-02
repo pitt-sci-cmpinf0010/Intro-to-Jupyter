@@ -213,8 +213,6 @@ In the `Intro-to-Jupyter` folder, open the `Lab-Lesson.ipynb` Jupyter Notebook. 
 
 ## Part 6 - Uploading completed labs to Canvas
 
-
-
 We will use [Canvas](canvas.pitt.edu) to let you upload your labs. 
 
 1. First, if you used the SCI JupyterHub, Virtual Lab, or Binder, you're going to have to download the notebook to your computer.
