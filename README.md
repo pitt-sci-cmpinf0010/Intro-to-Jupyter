@@ -79,7 +79,7 @@ There are two other options: download jupyterlab onto your machine, or access it
 
 ### Downloading and installing Jupyter:
 
-You can download the instructions from [here](setup/EnvironmentSetup.ipynb) and follow them. All links are on the course webpage as well. Don't forget the [environment.yml](setup/environment.yml) file!
+You can download the instructions from [here](setup/EnvironmentSetup.md) and follow them. All links are on the course webpage as well. Don't forget the [environment.yml](setup/environment.yml) file!
 
 ### Accessing labs via Binder
 
