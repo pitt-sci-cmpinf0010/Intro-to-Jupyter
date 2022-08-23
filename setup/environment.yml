@@ -1,0 +1,13 @@
+name: cmpinf0010
+channels:
+  - defaults
+dependencies:
+  - ipykernel
+  - numpy
+  - matplotlib
+  - pandas
+  - geopandas
+  - scipy
+  - descartes
+  - jupyterlab
+prefix: /Users/arjunchandrasekhar/opt/anaconda3/envs/cmpinf0010
