@@ -12,7 +12,7 @@ More specifically, here are the main technologies you will be using in the skill
 * **JupyterHub** - A multi-user version of Jupyter running on a remote server.
 
 
-We will be using *JupyterLab* to create, edit, and execute *python* in *Jupyter Notebooks* in the lab sessions. We will be running JupyterLab on the [Center for Research Computing's(https://jupyter.crc.pitt.edu)] instance of JupyterHub. What this means is that you do not need to install any software on your own computer, everything will be running up "in the cloud" and you will only need a web browser to access it.
+We will be using *JupyterLab* to create, edit, and execute *python* in *Jupyter Notebooks* in the lab sessions. We will be running JupyterLab on the [Center for Research Computing's(https://jupyter.crc.pitt.edu)] instance of JupyterHub. What this means is that you do not need to install any software on your own computer, everything will be running up "in the cloud" and you will only need a web browser to access it. NOTE: You do need to insall and run the GLobal Protect VPN to access it from anywhere. Instructions for installing the [Global Protect](https://services.pitt.edu/TDClient/33/Portal/KB/ArticleDet?ID=293) can be found here. 
 
 
 ## Overview
