@@ -1,4 +1,4 @@
-# CMPINF0010 Skills Lab 
+# CMPINF0010 Skills Lab
 # Lab 1 - Introduction to Jupyter & the Stack
 
 Welcome to the Lab session for CMPINF0010 Big Ideas in Computing and Information.
@@ -56,11 +56,11 @@ The downside is that you need to be connected to the Pitt VPN to acces the labs 
 2.  Go to [https://jupyter.crc.pitt.edu]
 3.	Log in with your Pitt credentials
     * Note: don't inlcude @pitt.edu, and your username needs to be **all lowercase** (e.g. abc12 is good, but ABC12 and abc12@pitt.edu are **not**)
-4.	Select the "Teach - 6 Cores, 3 Hours" from the drop down menu. 
-5.	Click the "Start" or `Start my Server`button. Be patient, it takes a few seconds to start the server up. 
+4.	Select the "Teach - 6 Cores, 3 Hours" from the drop down menu.
+5.	Click the "Start" or `Start my Server`button. Be patient, it takes a few seconds to start the server up.
 6.	That’s it, you’re in
 
-For more information and screen shots, please look at the canvas course syllabus. 
+For more information and screen shots, please look at the canvas course syllabus.
 
 Congratulations! You are now logged into JupyterHub. Your screen should (hopefully) look something like this:
 
@@ -69,7 +69,7 @@ Welcome to Jupyter Lab!
 
 ### It didn't work!
 
-First, talk to the UTAs or the professor.  It should work on most Windows, Macintosh, and Chromebook devices. 
+First, talk to the UTAs or the professor.  It should work on most Windows, Macintosh, and Chromebook devices.
 
 There are two other options: download jupyterlab onto your machine, or access it via Binder.
 
@@ -79,7 +79,7 @@ You can download the instructions from [here](setup/EnvironmentSetup.md) and fol
 
 ### Accessing labs via Binder
 
-Don't worry, if you are unable to log into Jupyter Hub, we have set up an alternative on another JupyterHub called [Binder](http://mybinder.org). By clicking the link below you will be connected to a free instance of Jupyter running in the cloud. 
+Don't worry, if you are unable to log into Jupyter Hub, we have set up an alternative on another JupyterHub called [Binder](http://mybinder.org). By clicking the link below you will be connected to a free instance of Jupyter running in the cloud.
 
 **Important Note:** If you are running on Binder and files or notebooks you create will be deleted after an hour of inactivity. Download anything you create to your local machine in order to preserve it (you will have to do this to hand in the lab exercises anyway)
 
@@ -104,7 +104,7 @@ Just as your computer has a system of files with a hierarchical order to them, y
 If you're using the VPN/Virtual Lab or Binder, these files are not on your local machine, they live on the CRC JupyterHub (which has A LOT more space than your computer). You can upload and download files from this remote file system using the JupyterLab web interface.
 
 ### The Terminal and Text Editor
-We will be using the terminal (or command prompt) for a variety of things during this class, but as explained an important use for it will be to download lab materials. Another good use for it is to navigate through files and run programs. 
+We will be using the terminal (or command prompt) for a variety of things during this class, but as explained an important use for it will be to download lab materials. Another good use for it is to navigate through files and run programs.
 The text file editor is useful for keeping information in, such as lists and certain data. We will learn more about doing this later in the semester!
 
 ---
@@ -146,11 +146,11 @@ During the course of this, uh, course, you'll be completing your labs and final 
 
 A Jupyter notebook is, at its core, a bunch of *cells* on top of an interactive *kernel*. This explanation necessarily oversimplifies some things, but you can think of each notebook as having its own kernel that all of its cells can access and modify. So, for example, if you say `a = 123` in `Notebook1.ipynb`, any code cell within `Notebook1.ipynb` can see the value of `a`, but `Notebook2.ipynb` is unaware of the existence of the variable `a`. (For a counterexample, try clicking on the "Python 3" in the upper-right corner of a notebook once you're on JupyterHub. Have fun.)
 
-The specific kernel we're using is an interactive version of Python 3 called IPython. This naming convention holds; the default Ruby kernel for Jupyter is called IRuby, for example. Many programming languages (including Java) have interactive kernels for creating notebooks, but we'll be sticking to Python 3 for this course. 
+The specific kernel we're using is an interactive version of Python 3 called IPython. This naming convention holds; the default Ruby kernel for Jupyter is called IRuby, for example. Many programming languages (including Java) have interactive kernels for creating notebooks, but we'll be sticking to Python 3 for this course.
 
 ### Cells
 
-Within the Jupyter notebook, there are three types of cells: code, Markdown, and raw. These cells can exist in any order within the notebook, and can be mixed and matched as you, the author, wish to do so. 
+Within the Jupyter notebook, there are three types of cells: code, Markdown, and raw. These cells can exist in any order within the notebook, and can be mixed and matched as you, the author, wish to do so.
 
 **Code cells** are the core of the Jupyter notebook's computation. They contain code that is run by the kernel. When you run a cell, any variables you assign are assigned for any code cell in the document, and any output your code produces is displayed directly below the cell.
 
@@ -177,7 +177,7 @@ Here's some **bold text**, and here's some *italics*. I can make a list like so:
 
 
 
-I can also [link to things](https://www.pitt.edu) with parentheses and brackets. 
+I can also [link to things](https://www.pitt.edu) with parentheses and brackets.
 
 Adding an image is like a link, but more excited:
 ![image description goes here](https://media.giphy.com/media/3d3woRW2rHwyDvFKNg/giphy.gif)
@@ -201,7 +201,7 @@ You can see a full guide to Markdown [here](https://github.com/adam-p/markdown-h
 ## Part 5 - Lesson & Exercises
 
 
-The materials you downloaded in Part 3 contain a Notebook with instructions for this week's exercise. 
+The materials you downloaded in Part 3 contain a Notebook with instructions for this week's exercise.
 
 In the `Intro-to-Jupyter` folder, open the `Lab-Lesson.ipynb` Jupyter Notebook. Read through this notebook and follow the instructions. You will be instructed to create a new Jupyter Notebook with some Markdown text, images, and Python code. This is the notebook you will hand in using Canvas (instructions below).
 
@@ -209,7 +209,7 @@ In the `Intro-to-Jupyter` folder, open the `Lab-Lesson.ipynb` Jupyter Notebook. 
 
 ## Part 6 - Uploading completed labs to Canvas
 
-We will use [Canvas](canvas.pitt.edu) to let you upload your labs. 
+We will use [Canvas](canvas.pitt.edu) to let you upload your labs.
 
 1. First, if you used the CRC JupyterHub, Virtual Lab, or Binder, you're going to have to download the notebook to your computer.
     * On JupyterHub, right click on your exercise notebook on your file browser on the left
