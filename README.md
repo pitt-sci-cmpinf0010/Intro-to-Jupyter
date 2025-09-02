@@ -6,13 +6,13 @@ Welcome to the Lab session for CMPINF0010 Big Ideas in Computing and Information
 This week is going to focus on getting you oriented with the technology stack we will be using in the lab sessions for this course. The primary technologies we will be using is a platform called [Jupyter](http://jupyter.org) and the [Python](http://python.org) programming language. Jupyter is an open-source project that maintains a collection of tools for interactive computing. Python is an extremely popular general purpose programming language that has become widely used in the data science community. With their powers combined, Jupyter and Python make easy to interactively execute code to explore data. In the Big Ideas skills lab we will be doing just that!
 
 More specifically, here are the main technologies you will be using in the skills lab:
-* **Python** - A general purpose programming language that is both easy to learn and very powerful. 
+* **Python** - A general purpose programming language that is both easy to learn and very powerful.
 * **JupyterLab** - JupyterLab is a web-based interactive development environment for Jupyter notebooks, code, and data.
 * **Jupyter Notebooks** - The Jupyter Notebook is an open-source standard that allows you to create and share documents that contain live code, equations, visualizations and narrative text.
 * **JupyterHub** - A multi-user version of Jupyter running on a remote server.
 
 
-We will be using *JupyterLab* to create, edit, and execute *python* in *Jupyter Notebooks* in the lab sessions. We will be running JupyterLab on the [Center for Research Computing's(https://jupyter.crc.pitt.edu)] instance of JupyterHub. What this means is that you do not need to install any software on your own computer, everything will be running up "in the cloud" and you will only need a web browser to access it. NOTE: You do need to insall and run the GLobal Protect VPN to access it from anywhere. Instructions for installing the [Global Protect](https://services.pitt.edu/TDClient/33/Portal/KB/ArticleDet?ID=293) can be found here. 
+We will be using *JupyterLab* to create, edit, and execute *python* in *Jupyter Notebooks* in the lab sessions. We will be running JupyterLab on the [Center for Research Computing's](https://jupyter.crc.pitt.edu) instance of JupyterHub. What this means is that you do not need to install any software on your own computer, everything will be running up "in the cloud" and you will only need a web browser to access it. NOTE: You do need to insall and run the GLobal Protect VPN to access it from anywhere. Instructions for installing the [Global Protect](https://services.pitt.edu/TDClient/33/Portal/KB/ArticleDet?ID=293) can be found here.
 
 
 ## Overview
