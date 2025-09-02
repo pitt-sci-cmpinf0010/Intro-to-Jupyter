@@ -32,7 +32,7 @@ This week's lab session has 5 parts.
 
 ## Help Outside the "Classroom"
 
-There is a new discord server for this class! Check out the course page to join!
+There is a Microsoft Team for this class! Check out the course page to join!
 
 
 ---
