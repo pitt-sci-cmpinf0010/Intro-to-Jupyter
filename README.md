@@ -56,7 +56,7 @@ The downside is that you need to be connected to the Pitt VPN to acces the labs 
 2.  Go to [https://jupyter.crc.pitt.edu]
 3.	Log in with your Pitt credentials
     * Note: don’t inlcude @pitt.edu, and your username needs to be **all lowercase** (e.g. abc12 is good, but ABC12 and abc12@pitt.edu are **not**)
-4.	Select the “Teach - 6 Cores, 3 Hours” from the drop down menu.
+4.	Select the “TEACH - 6 CPUs - 45 GB” from the drop down menu. No other settings need to be selected.
 5.	Click the “Start” or `Start my Server`button. Be patient, it takes a few seconds to start the server up.
 6.	That’s it, you’re in
 
