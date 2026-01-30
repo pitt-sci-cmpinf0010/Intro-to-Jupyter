@@ -12,7 +12,7 @@ More specifically, here are the main technologies you will be using in the skill
 * **JupyterHub** - A multi-user version of Jupyter running on a remote server.
 
 
-We will be using *JupyterLab* to create, edit, and execute *python* in *Jupyter Notebooks* in the lab sessions. We will be running JupyterLab on the [Center for Research Computing’s](https://jupyter.crc.pitt.edu) instance of JupyterHub. What this means is that you do not need to install any software on your own computer, everything will be running up “in the cloud” and you will only need a web browser to access it. NOTE: You do need to insall and run the GLobal Protect VPN to access it from anywhere. Instructions for installing the [Global Protect](https://services.pitt.edu/TDClient/33/Portal/KB/ArticleDet?ID=293) can be found here.
+We will be using *JupyterLab* to create, edit, and execute *python* in *Jupyter Notebooks* in the lab sessions. We will be running JupyterLab on the [Center for Research Computing’s](https://jupyter.crc.pitt.edu) instance of JupyterHub. What this means is that you do not need to install any software on your own computer, everything will be running up “in the cloud” and you will only need a web browser to access it. NOTE: You do need to insall and run the GLobal Protect VPN to access it from anywhere. Instructions for installing the [Global Protect](https://services.pitt.edu/TDClient/33/Portal/Requests/ServiceDet?ID=83) can be found here.
 
 
 ## Overview
@@ -51,7 +51,7 @@ The downside is that you need to be connected to the Pitt VPN to acces the labs 
 
 #### How to login to the CRC JupterHub:
 
-1.  Connect to the VPN. If you need help, instructions are [here](https://services.pitt.edu/TDClient/33/Portal/KB/ArticleDet?ID=293)
+1.  Connect to the VPN. If you need help, instructions are [here](https://services.pitt.edu/TDClient/33/Portal/Requests/ServiceDet?ID=83)
     * Alternatively, you can connect virtually to one of Pitt’s machines using these [instructions](https://www.technology.pitt.edu/services/virtual-lab)
 2.  Go to [https://jupyter.crc.pitt.edu]
 3.	Log in with your Pitt credentials
